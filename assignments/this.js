@@ -45,5 +45,10 @@ console.log(javascript.combine())
 // code example for New Binding
 
 // Principle 4
+const foodItems = ['Pizza', 'Sushi', 'Tacos']
+function food (items){
+  return `My favorite food items are: ${items}`
+}
+console.log(food.call(this, foodItems))
 
 // code example for Explicit Binding
